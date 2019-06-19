@@ -12,6 +12,11 @@ h1 {
         margin: 0 auto;
         padding: 32px;
     }
+
+    .cg-auto {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 .spacer-vert-32px {
@@ -26,7 +31,8 @@ h1 {
 
 .card {
     margin: 16px;
-    max-width: 300px;
+    min-width: 300px;
+    width: 300px !important;
 }
 
 #btn_scrollToTop {
