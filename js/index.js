@@ -18,6 +18,10 @@ window.onscroll = function () {
 };
 window.onload = function () {
     toggleQuote();
+    Mousetrap.bind('s u c c', function () {
+        let win = window.open('https://www.youtube.com/watch?v=qFchpvKpYm0', '_blank');
+        win.focus();
+    });
 }
 
 function scrollFunction() {
