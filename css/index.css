@@ -6,10 +6,12 @@ h1 {
     color: #202020;
 }
 
-.content_main {
-    width: 1024px;
-    margin: 0 auto;
-    padding: 32px;
+@media screen and (min-width: 900px) {
+    .content_main {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 32px;
+    }
 }
 
 .spacer-vert-32px {
