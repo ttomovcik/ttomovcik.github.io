@@ -2,20 +2,228 @@
 <html lang="en">
 
 <head>
-    <title>Tomáš Tomovčík | Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Tomáš Tomovčík and his super awesome projects.">
-    <meta name="og:title" property="og:title" content="Tomáš Tomovčík">
-    <meta name="robots" content="index, follow">
-    <link href="https://ttomovcik.github.io" rel="canonical">
-    <meta http-equiv="page-enter" content="revealtrans(duration=seconds,transition=num)" />
-    <meta http-equiv="page-exit" content="revealtrans(duration=seconds,transition=num)" />
-    <meta http-equiv="page-enter" content="blendTrans(duration=sec)" />
+  <title>Tomáš Tomovčík</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tomáš Tomovčík and his super awesome projects.">
+  <meta name="og:title" property="og:title" content="Tomáš Tomovčík">
+  <meta name="robots" content="index, follow">
+  <link href="https://ttomovcik.github.io" rel="canonical">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <h1>Tom is making some changes to this website. Check back later :/</h1>
+
+  <div class="content">
+    <!-- navigation -->
+    <header>
+      <a href="#aboutme">about me</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+      <h1>Tomáš Tomovčík</h1>
+      <p>Front-end developer</p>
+      <div class="social-icons">
+        <a href="https://facebook.com/ttomovcik" style="color: #3c5a99" class="fa fa-facebook-f"></a>
+        <a href="https://twitter.com/@ttomovcik" style="color: #1da1f2" class="fa fa-twitter"></a>
+        <a href="https://linkedin.com/in/ttomovcik" style="color: #0e76a8" class="fa fa-linkedin"></a>
+        <a href="https://instagram.com/_ttomovcik" style="color: #c13584" class="fa fa-instagram"></a>
+        <a href="https://reddit.com/u/ttomovcik" style="color: #ff4500" class="fa fa-reddit-alien"></a>
+        <a href="https://github.com/ttomovcik" style="color: #333333" class="fa fa-github"></a>
+      </div>
+
+      <a href="#" class="button">Download CV (en)</a>
+    </section>
+
+    <!-- about me -->
+    <section id="aboutme">
+      <h2>about me</h2>
+      <p>
+        Android and web developer.
+        <br /><br />
+        I'm Tomáš Tomovčík. I started playing around with computers waaay back in who knows when. I created my
+        first ever application back in 2009 - a calculator in C# and WinForms, and after that, nothing really happened.
+        <br /><br />
+        In 2012 I started to *actually code something*. After downloading few sample projects and trying to figure out
+        how things work I <strike>gave up</strike> realized that this appoach wouldn't work for me.
+        So, being me, I started tinkering with the code and finally figured out what's gonna work for me. The
+        <cite>Code as you go</cite> approach seemed like a good idea - and it was for a while. But few years later I
+        came to a conclusion that I missed A LOT of coding basics. So I started to read books about coding and learn the
+        basics.
+        <br /><br />
+        Today, after slowly learning basics I work on Android apps and pretty much everything around AOSP, build (and
+        sometimes also design) websites and experiment with this <cite>next-gen machine learning stuff</cite> that
+        everyone is talking about.
+        <br /><br />
+        I currently work as a technician and Android developer, but I'm open for new opportunities. Feel free to contact
+        me. :-)
+      </p>
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+      <h2>projects</h2>
+
+      <div class="card_container">
+        <article class="card card--error_sk">
+          <div class="card__img"></div>
+          <a href="#" class="card_link">
+            <div class="card__img--hover"></div>
+          </a>
+          <div class="card__info">
+            <span class="card__category">App + web</span>
+            <h3 class="card__title">Error.sk</h3>
+            <p>Android app and landing page for repair shop</p>
+            <a href="#" class="button">↗ Website</a>
+            <a href="#" class="button">↗ View on Github</a>
+          </div>
+        </article>
+
+        <article class="card card--quickly">
+          <div class="card__img"></div>
+          <a href="#" class="card_link">
+            <div class="card__img--hover"></div>
+          </a>
+          <div class="card__info">
+            <span class="card__category">Android app</span>
+            <h3 class="card__title">quickly</h3>
+            <p>Minimalistic note-taking app for Android</p>
+            <a href="#" class="button">⬇ Download</a>
+            <a href="#" class="button">↗ View on Github</a>
+          </div>
+        </article>
+
+        <article class="card card--gakko">
+          <div class="card__img"></div>
+          <a href="#" class="card_link">
+            <div class="card__img--hover"></div>
+          </a>
+          <div class="card__info">
+            <span class="card__category">Web application</span>
+            <h3 class="card__title">Error.sk</h3>
+            <p>Android app and landing page for repair shop</p>
+            <a href="#" class="button">↗ Website</a>
+            <a href="#" class="button">↗ View on Github</a>
+          </div>
+        </article>
+      </div>
+
+      <h2>uh oh</h2>
+      <p>even moar stuff I've been working on! There's more to see.<br>Head over to my Github, XDA-Developers or
+        Needrom.com profile to see more.</p>
+      <table class="tg">
+        <tr>
+          <th class="tg-c3ow" align="center" valign="middle"><b>Project name</b></th>
+          <th class="tg-c3ow" align="center" valign="middle"><b>Target platform / type</b></th>
+          <th class="tg-c3ow" align="center" valign="middle"><b>Status</b></th>
+          <th class="tg-c3ow" align="center" valign="middle"><b>Links</b></th>
+        </tr>
+        <tr>
+          <td class="tg-oiff" align="center" valign="middle">Pedometer<br></td>
+          <td class="tg-x3a1" align="center" valign="middle">Mobile / Android app</td>
+          <td class="tg-x3a1" align="center" valign="middle">Archived</td>
+          <td class="tg-x3a1" align="center" valign="middle"><a href="#" class="button">Download</a></td>
+        </tr>
+        <tr>
+          <td class="tg-de2y" align="center" valign="middle">Android Diagnostic Toolkit</td>
+          <td class="tg-ao2g" align="center" valign="middle">Desktop / Electron app</td>
+          <td class="tg-ao2g" align="center" valign="middle">Under development</td>
+          <td class="tg-ao2g" align="center" valign="middle"><a href="#" class="button">View source</a></td>
+        </tr>
+        <tr>
+          <td class="tg-oiff" align="center" valign="middle">Fluent theme for RocketDock</td>
+          <td class="tg-x3a1" align="center" valign="middle">Theme</td>
+          <td class="tg-x3a1" align="center" valign="middle">Archived</td>
+          <td class="tg-x3a1" align="center" valign="middle"><a href="#" class="button">Download</a></td>
+        </tr>
+        <tr>
+          <td class="tg-de2y" align="center" valign="middle">AOSP N port for DOOGEE X30</td>
+          <td class="tg-ao2g" align="center" valign="middle">Mobile / ROM port</td>
+          <td class="tg-ao2g" align="center" valign="middle">Not maintained anymore</td>
+          <td class="tg-ao2g" align="center" valign="middle"><a href="#" class="button">Download</a></td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <h2>contact</h2>
+
+      <div class="contact">
+        <h1>Tomáš Tomovčík</h1>
+        <p>Front-end developer</p>
+        <hr>
+        <address>
+          <a href="mailto:tomovcik.tomas@gmail.com"><i class="fa fa-envelope"></i> tomovcik.tomas@gmail.com</a>
+          <br>
+          <a href="call:"><i class="fa fa-phone"></i> +421 944 050 245</a>
+        </address>
+        <hr>
+        <h4>Downloads</h4>
+        <table style="margin-left: auto; margin-right: auto;" class="tg">
+          <tbody>
+            <tr>
+              <td><b>Type</b></td>
+              <td><b>English</b></td>
+              <td><b>Slovak</b></td>
+            </tr>
+            <tr>
+              <td><b>Resume (coming soon)</b></td>
+              <td><a href="#" class="button">English</a></td>
+              <td><a href="#" class="button">Slovak</a></td>
+            </tr>
+            <tr>
+              <td><b>CV (Europass)</b></td>
+              <td><a href="./docs/cv/cv_europass_@ttomovcik_20190713_en-signed.pdf" target="_blank"
+                  class="button">English</a></td>
+              <td><a href="./docs/cv/cv_europass_@ttomovcik_20190713_sk-signed.pdf" target="_blank"
+                  class="button">Slovak</a></td>
+            </tr>
+            <tr>
+              <td><b>CV (simple)</b></td>
+              <td><a href="./docs/cv/cv_simple_@ttomovcik_20190713_en-signed.pdf" target="_blank"
+                  class="button">English</a></td>
+              <td><a href="./docs/cv/cv_simple_@ttomovcik_20190713_sk-signed.pdf" target="_blank"
+                  class="button">Slovak</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <small>
+      <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by Tomáš Tomovčík.<br>
+      <p>No framework or stuff like that. Just pure <strike>Google Analytics Tracking</strike></p>
+    </small>
+  </footer>
+
+  <script async>
+    var firebaseConfig = {
+      apiKey: "AIzaSyBcsmG7I8hLqH0PBHYCBsVBsybGxhWMOtA",
+      authDomain: "ttomovcik-github-io.firebaseapp.com",
+      databaseURL: "https://ttomovcik-github-io.firebaseio.com",
+      projectId: "ttomovcik-github-io",
+      storageBucket: "",
+      messagingSenderId: "863418056346",
+      appId: "1:863418056346:web:9bd788a6689105a4"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script async>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-133294265-2');
+  </script>
 </body>
 
 </html>
