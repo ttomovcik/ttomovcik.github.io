@@ -13,7 +13,7 @@ function getThought() {
         "Music is just flavored air.",
         "Web developers for porn sites don't have to worry about NSFW content on their PC screen when at work.",
         "An introvert’s internet probably goes out more than they do",
-        "Reload this page to get new quote :)",
+        "[ insert quote here ]",
         "ｗｅｌｃｏｍｅ　ｔｏ　ｔｈｅ　ｆｕｔｕｒｅ　ミ佳イナ",
         "Look ma, I can make a website",
         "Eh.",
@@ -21,6 +21,22 @@ function getThought() {
     ]
     var randomQuote = wisdom[Math.floor(Math.random() * wisdom.length)];
     document.getElementById("aNotFunnyThing").innerText = randomQuote;
+}
+
+function rndProject() {
+    const projArray = [
+        "https://github.com/ttomovcik/gakko",
+        "https://github.com/ttomovcik/onefeed",
+        "https://github.com/ttomovcik/quickly",
+        "https://github.com/ttomovcik/rd-fluent-theme",
+        "https://github.com/ttomovcik/space-invaders",
+        "https://github.com/ttomovcik/pedometer-android",
+        "https://forum.xda-developers.com/android/software/aosp-n-doogee-x30-t3794931",
+        "https://www.needrom.com/download/twrp-3-1-1-0-9/",
+        "https://forum.xda-developers.com/android/general/root-coolad-modena-2-sky-2-e502-t3739599",
+        "https://github.com/ttomovcik/Steam-Slovak-Translation"
+    ]
+    window.location.href = projArray[Math.floor(Math.random() * projArray.length)];
 }
 
 function copyToClipboard(text) {
@@ -46,6 +62,11 @@ function copyToClipboard(text) {
 
 function gtag() {
     dataLayer.push(arguments);
+}
+
+function noFileFoundAlert() {
+    // ! I know, I know..
+    alert("Unable to locate file. Try reloading page or visiting later. Sorry about that.")
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
