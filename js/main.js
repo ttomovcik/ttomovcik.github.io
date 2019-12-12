@@ -16,6 +16,8 @@ function getThought() {
         "[ insert quote here ]",
         "ｗｅｌｃｏｍｅ　ｔｏ　ｔｈｅ　ｆｕｔｕｒｅ　ミ佳イナ",
         "Look ma, I can make a website",
+        "Best viewed on desktop!!1",
+        "Quack PWAs!",
         "Eh.",
         "You are a wonderful human being."
     ]
